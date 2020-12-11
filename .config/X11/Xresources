@@ -1,0 +1,26 @@
+!colorscheme
+#include </home/red/.config/colorschemes/nord>
+
+*font: xft:Anonymice Nerd Font:size=18
+*boldFont: xft:InconsolataLGC Nerd Font :bold:size=18
+*italicFont: xft:InconsolataLGC Nerd Font:italic:size=18
+*letterSpace:0
+! General settings
+*saveLines: 4000
+*scrollBar: False
+*scrollstyle: rxvt
+!.termName: xterm-256color
+*urgentOnBell: True
+*cursorBlink: False
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft*hintstyle: hintfull
+
+Xft*rgba: rgb
+*geometry: 150x40
+*internalBorder: 10
+*fading: 0
+*tintColor: #ffffff
+*shading: 0
+*inheritPixmap: False
