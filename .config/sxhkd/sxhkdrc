@@ -144,7 +144,7 @@ alt + shift + x
         systemctl suspend
 
 super + e 
-         ./.local/bin/dmenuunicode
+         dmenuunicode
 
 alt + shift + a
         ./dl/android-studio/bin/studio.sh

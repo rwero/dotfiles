@@ -31,31 +31,6 @@ label-urgent-foreground = ${colors.red}
 label-urgent-padding = 1
 
 
-[module/i3]
-
-type = internal/i3
-label-mode = %mode%
-label-mode-padding = 1
-label-mode-background = #e60053
-
-label-focused = %name%
-label-focused-foreground = ${colors.blue}
-label-focused-padding = 1
-
-label-unfocused = %name%
-label-unfocused-padding = 1
-label-unfocused-foreground = ${colors.white}
-
-label-visible = %name%
-label-visible-underline = #555555
-label-visible-padding = 1
-
-label-urgent = %name%
-label-urgent-foreground = #000000
-label-urgent-background = ${colors.red}
-label-urgent-padding = 1
-
-pin-workspaces = true
 [module/date]
 type = internal/date
 
@@ -69,7 +44,7 @@ label = %date%
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 79
+full-at = 60
 
 format-charging = <animation-charging>  <label-charging>
 format-discharging = <ramp-capacity>  <label-discharging>
@@ -120,7 +95,7 @@ format-disconnected = 睊
 type = internal/battery
 battery = BAT1
 adapter = AC
-full-at = 79
+full-at = 60
 
 format-charging = <animation-charging>  <label-charging>
 format-discharging = <ramp-capacity>  <label-discharging>
